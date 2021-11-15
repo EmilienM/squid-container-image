@@ -26,5 +26,5 @@ jobs:
       with:
         push: true
         tags: |
-          emilien/squid:latest
+          quay.io/emilien/squid:latest
         file: Containerfile
