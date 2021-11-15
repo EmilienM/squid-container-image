@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the container image
-      run: docker build . --file Dockerfile --tag squid:$(date +%s)
+      run: docker build . --file Containerfile --tag squid:$(date +%s)
